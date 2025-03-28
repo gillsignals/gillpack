@@ -17,3 +17,7 @@ a character vector with elements matching the original string split by the delim
 \description{
 Split a string
 }
+\examples{
+x <- "how,does,this,function,work,?"
+strsplit1(x, split = ",")
+}
